@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C0F42"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Turn Wifi On"
+        android:textColor="#D6C0C0"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/wifiOn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D6C0C0"
+        android:text="Wifi - On ">
+
+    </Button>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Turn Wifi Off"
+        android:textColor="#D6C0C0"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/wifiOff"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D6C0C0"
+        android:text="Wifi - Off ">
+
+    </Button>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Turn Bluetooth On"
+        android:textColor="#D6C0C0"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bluetoothOn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D6C0C0"
+
+        android:text="Bluetooth - On ">
+
+    </Button>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Turn Bluetooth Off"
+        android:textColor="#D6C0C0"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bluetoothOff"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D6C0C0"
+        android:text="Bluetooth - Off ">
+
+    </Button>
+
+
+</LinearLayout>
